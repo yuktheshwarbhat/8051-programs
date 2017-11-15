@@ -24,9 +24,9 @@ while(1)
 		  {
 				 while(sw==0);
 				 a++;
-			   if(a==0)
-					  delay=1000;
-				 else if(a==1)
+			
+					
+				 if(a==1)
 					  delay=500;
 				 else
 					  delay=100;
