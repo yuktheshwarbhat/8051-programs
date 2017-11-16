@@ -38,9 +38,8 @@ while(1)
 } 
 void delay_ms(unsigned int n)
 {
-	unsigned int k;
 	unsigned char j;
-	for(k=0;k<n;k++)
+	for(;n;n--)
 	{
 		for(j=0;j<247;j++);
 		for(j=0;j<250;j++);
