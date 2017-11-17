@@ -1,6 +1,6 @@
 #include<reg51.h>
 #include"delay_ms.h"
-#include"led8bit.h"
+#include"lcd8bit.h"
 sbit sw=P1^0;
 unsigned char a;
 
