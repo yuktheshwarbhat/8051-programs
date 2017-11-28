@@ -6,10 +6,10 @@ void main()
 {
 	unsigned char i,j;
 	lcd_init();
-	lcd_cmd(0x0c);
+	lcd_cmd(0x0c);//lcd cursor off
 	while(1)
 	{
-			j=4;
+			j=4;//length of the string to scroll
 	for(i=0;i<16;i++)
 	{
 		lcd_cmd(0x01);
