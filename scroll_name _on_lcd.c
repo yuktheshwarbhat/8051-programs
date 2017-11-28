@@ -12,8 +12,8 @@ void main()
 			j=4;//length of the string to scroll
 	for(i=0;i<16;i++)
 	{
-		lcd_cmd(0x01);
-		if((i+j+1)>16)
+		lcd_cmd(0x01);//clear lcd screen
+		if((i+j+1)>16)  //To check whether name exceeds first line
 		{
 		   lcd_cmd(0x80);
 			 lcd_string(name+j);
