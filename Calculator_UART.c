@@ -73,7 +73,7 @@ void calculator(int a, char op,int b)
 		case '*':uart_integer(a*b);
 		         break;
 		case '/':if(b==0)
-								uart_string("xx");
+								uart_string("floating point execption");
           	 else
 			          uart_float((float)a/b);
 		         break;
