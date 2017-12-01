@@ -36,6 +36,8 @@ void uart_integer(long int n)
 		n=-n;
 		uart_tx('-');
 	}
+	if(n==0)
+		uart_string("0000");
 	for(i=0;n;n/=10,i++)
   	buf[i]=n%10;
 	for(i-=1;i>=0;i--)
