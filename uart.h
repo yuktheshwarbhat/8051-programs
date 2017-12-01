@@ -44,7 +44,7 @@ void uart_integer(long int n)
 
 void uart_float(float n)
 {
-	int d,p;
+	int d;
 	d=(int)n;
 	n-=d;
   n*=10000;
